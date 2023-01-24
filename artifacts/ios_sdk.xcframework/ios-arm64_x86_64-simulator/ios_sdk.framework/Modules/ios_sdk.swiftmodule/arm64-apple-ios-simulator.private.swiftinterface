@@ -1,0 +1,79 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ios_sdk
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import BackgroundTasks
+import CommonCrypto
+import CoreBluetooth
+import CoreFoundation
+import CryptoKit
+import Foundation
+import Swift
+import SwiftProtobuf
+import UIKit
+import _Concurrency
+import _StringProcessing
+@_exported import ios_sdk
+extension CryptoKit.P256.KeyAgreement.PublicKey : Swift.Equatable {
+  public static func == (lhs: CryptoKit.P256.KeyAgreement.PublicKey, rhs: CryptoKit.P256.KeyAgreement.PublicKey) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers final public class SessionSDK {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class MessagesSDK {
+  @objc deinit
+}
+public struct Charger : Swift.Identifiable, Swift.Hashable, Swift.Equatable {
+  public let id: Swift.String
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ios_sdk.Charger, b: ios_sdk.Charger) -> Swift.Bool
+  public typealias ID = Swift.String
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class UserSDK {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class HeyChargeSDK {
+  public static func initialize(sdkKey: Swift.String)
+  public static func setUserId(userId: Swift.String)
+  public static func chargers() -> ios_sdk.ChargerSDK
+  public static func users() -> ios_sdk.UserSDK
+  public static func sessions() -> ios_sdk.SessionSDK
+  public static func applicationWillEnterForeground()
+  public static func applicationDidEnterBackground()
+  public static func dispose()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class HCObserver {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class ChargerSDK {
+  final public func observeChargers(onGetDataFailure: (ios_sdk.SDKError) -> Swift.Void, onGetDataSuccess: @escaping ([ios_sdk.Charger]) -> Swift.Void)
+  @objc deinit
+}
+public enum SDKError : Swift.Error {
+  case requestFailed
+  case invalidToken
+  case sdksNotInitialized
+  case userIdIsNotSet
+  case userIsNull
+  case somethingWentWrong
+  case needInternetConnection
+  case deviceNotConnected
+  case deviceStateHaveNotChanged
+  case chargerShouldBeInIdleState
+  case chargerShouldBeInChargingState
+  case notAllowedToStopOtherUserSession
+  case chargerShouldNotBeOnboarded
+  case firmwareFilesNotFetchedYet
+  case chargerShouldBeInOtaOrIdleState
+  public static func == (a: ios_sdk.SDKError, b: ios_sdk.SDKError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension ios_sdk.SDKError : Swift.Equatable {}
+extension ios_sdk.SDKError : Swift.Hashable {}
