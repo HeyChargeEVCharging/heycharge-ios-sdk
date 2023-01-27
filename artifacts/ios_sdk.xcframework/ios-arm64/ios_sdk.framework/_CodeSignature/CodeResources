@@ -4,30 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/Alamofire.framework/Alamofire</key>
-		<data>
-		/oQQWYKSpP42aF4R5vncI0C/JKw=
-		</data>
-		<key>Frameworks/Alamofire.framework/Info.plist</key>
-		<data>
-		aoHojdgwgBL86jOg8YBELSV62OI=
-		</data>
-		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
-		<data>
-		BDrzefbiuFJp8nE3+yq82OLheI8=
-		</data>
-		<key>Frameworks/GRDB.framework/GRDB</key>
-		<data>
-		Nun7E+7BxGcz6/WVn7IxiWE2PNY=
-		</data>
-		<key>Frameworks/GRDB.framework/Info.plist</key>
-		<data>
-		3Rh4OkqyVryCNdBWz7AQQUTE6m4=
-		</data>
-		<key>Frameworks/GRDB.framework/_CodeSignature/CodeResources</key>
-		<data>
-		uIQiRMbOlFi1xiKgmybonzrcpFQ=
-		</data>
 		<key>Headers/ios_sdk-Swift.h</key>
 		<data>
 		EAgY4V3Rq3JlrAA+afXmyGcfHeM=
@@ -42,11 +18,11 @@
 		</data>
 		<key>Modules/ios_sdk.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ptXQJ6RO+lXtKALSUFDqer7HHLY=
+		abG6lWtNUVLXLErJv0sAKtiA2QQ=
 		</data>
 		<key>Modules/ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		fkr75C1jidEkNsDAfxPl5nEFV6c=
+		nd1f87ByMgn+wbtAdQ8OmBgcCgY=
 		</data>
 		<key>Modules/ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -54,11 +30,11 @@
 		</data>
 		<key>Modules/ios_sdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		fkr75C1jidEkNsDAfxPl5nEFV6c=
+		nd1f87ByMgn+wbtAdQ8OmBgcCgY=
 		</data>
 		<key>Modules/ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		+E7IeTKigJaqtzis0PcxlQVBjuY=
+		dQUEQT+ktq8g4hR2yhvkAAGG8IY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,48 +43,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/Alamofire.framework/Alamofire</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			NiTbhIhK01klX39Pi4garynzGkAKa9vfxQ1fw9KzJyE=
-			</data>
-		</dict>
-		<key>Frameworks/Alamofire.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Xi5orsIPJz/puZzfO/27zvfG5tNHDKQaVHp+22JKGZk=
-			</data>
-		</dict>
-		<key>Frameworks/Alamofire.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tJ3cep+HcFAiSNSfEhRxDW6vNtTnH4Nkv6BJDrofLLM=
-			</data>
-		</dict>
-		<key>Frameworks/GRDB.framework/GRDB</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DtabUT9nM9ko6sDuD0E85CbqjaN681nGqKWfh9f1CKA=
-			</data>
-		</dict>
-		<key>Frameworks/GRDB.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LOMA+1RgaKKIiEMM0MNUGcsZjZXJq/s7KR5YzLeB/3k=
-			</data>
-		</dict>
-		<key>Frameworks/GRDB.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lzjEVwN0HJ2vKOKqgKNGM5sRUexwaxCAsgTeK2/Bca4=
-			</data>
-		</dict>
 		<key>Headers/ios_sdk-Swift.h</key>
 		<dict>
 			<key>hash2</key>
@@ -127,14 +61,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			djImTv2ze16rgEl4C6CjAm/QW18bcCf6ElyaYfrwdk0=
+			K/hsM3yGLmhmGvmzJmD9LuTL4z3xjn+i7mC59HO/Who=
 			</data>
 		</dict>
 		<key>Modules/ios_sdk.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gL6EueZwO3VuiwcsSeRx/Pm1cuDWHqjFwxWom2aAUTw=
+			xjuPQiHuhhmJ/pFG0fs6l8xeY2G0/i4QOEG2Y4MhJ+A=
 			</data>
 		</dict>
 		<key>Modules/ios_sdk.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -148,14 +82,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gL6EueZwO3VuiwcsSeRx/Pm1cuDWHqjFwxWom2aAUTw=
+			xjuPQiHuhhmJ/pFG0fs6l8xeY2G0/i4QOEG2Y4MhJ+A=
 			</data>
 		</dict>
 		<key>Modules/ios_sdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5KZeem4848SjWHL/axzyuXRI3LJmQ2wZ3WOs7Qjtjmw=
+			/PdW0l9PppdRDlaWxIxTpbc6U/zwhlK+d2vtC2WGS/Q=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
