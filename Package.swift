@@ -12,7 +12,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "heycharge_ios_sdk",
-            targets: ["heycharge_ios_sdk","ios_sdk"]),
+            targets: ["heycharge_ios_sdk","ios-sdk"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -30,7 +30,7 @@ let package = Package(
             ]),
         .binaryTarget(
             name: "ios-sdk",
-            path: "artifacts/ios_sdk.xcframework"
+            path: "artifacts/ios-sdk.xcframework"
         ),
         .testTarget(
             name: "heycharge_ios_sdkTests",
