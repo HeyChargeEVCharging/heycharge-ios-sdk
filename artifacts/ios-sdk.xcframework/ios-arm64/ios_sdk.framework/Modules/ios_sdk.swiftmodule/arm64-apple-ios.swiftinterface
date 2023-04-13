@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
-// swift-module-flags: -target arm64-apple-ios14.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ios_sdk
+// swift-compiler-version: Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ios_sdk
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import BackgroundTasks
 import Combine
@@ -25,7 +25,7 @@ public enum HardwareType : Swift.Int, Swift.Codable {
     get
   }
 }
-public struct Session : Swift.Identifiable, Swift.Hashable, Swift.Equatable {
+public struct Session : Swift.Identifiable, Swift.Hashable, Swift.Equatable, Swift.Codable {
   public let id: Swift.String
   public let chargeAmount: Swift.Double
   public let chargerName: Swift.String
@@ -34,9 +34,11 @@ public struct Session : Swift.Identifiable, Swift.Hashable, Swift.Equatable {
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ios_sdk.Session, b: ios_sdk.Session) -> Swift.Bool
   public typealias ID = Swift.String
+  public func encode(to encoder: Swift.Encoder) throws
   public var hashValue: Swift.Int {
     get
   }
+  public init(from decoder: Swift.Decoder) throws
 }
 public enum CommercialModel : Swift.String, Swift.Codable {
   case informational
@@ -57,14 +59,16 @@ extension CryptoKit.P256.KeyAgreement.PublicKey : Swift.Equatable {
 @_hasMissingDesignatedInitializers final public class MessagesSDK {
   @objc deinit
 }
-public struct ChargerPricing : Swift.Hashable, Swift.Equatable {
+public struct ChargerPricing : Swift.Hashable, Swift.Equatable, Swift.Codable {
   public let driverPrice: Swift.Double
   public init(driverPrice: Swift.Double, heychargeMargin: Swift.Double, propertyMargin: Swift.Double, utilityPrice: Swift.Double)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ios_sdk.ChargerPricing, b: ios_sdk.ChargerPricing) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
   public var hashValue: Swift.Int {
     get
   }
+  public init(from decoder: Swift.Decoder) throws
 }
 public enum PendingMessagesState : Swift.Int, Swift.Codable {
   case empty
@@ -84,7 +88,7 @@ public enum ChargerType : Swift.String, Swift.Codable {
     get
   }
 }
-public struct Charger : Swift.Identifiable, Swift.Hashable, Swift.Equatable {
+public struct Charger : Swift.Identifiable, Swift.Hashable, Swift.Equatable, Swift.Codable {
   public let id: Swift.String
   public let name: Swift.String
   public let address: Swift.String
@@ -94,21 +98,25 @@ public struct Charger : Swift.Identifiable, Swift.Hashable, Swift.Equatable {
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ios_sdk.Charger, b: ios_sdk.Charger) -> Swift.Bool
   public typealias ID = Swift.String
+  public func encode(to encoder: Swift.Encoder) throws
   public var hashValue: Swift.Int {
     get
   }
+  public init(from decoder: Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers final public class UserSDK {
   @objc deinit
 }
-public struct ChargerConnector : Swift.Identifiable, Swift.Hashable, Swift.Equatable {
+public struct ChargerConnector : Swift.Identifiable, Swift.Hashable, Swift.Equatable, Swift.Codable {
   public let id: Swift.Int
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ios_sdk.ChargerConnector, b: ios_sdk.ChargerConnector) -> Swift.Bool
   public typealias ID = Swift.Int
+  public func encode(to encoder: Swift.Encoder) throws
   public var hashValue: Swift.Int {
     get
   }
+  public init(from decoder: Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers final public class HeyChargeSDK {
   public static func initialize(sdkKey: Swift.String)
@@ -121,13 +129,15 @@ public struct ChargerConnector : Swift.Identifiable, Swift.Hashable, Swift.Equat
   public static func dispose()
   @objc deinit
 }
-public struct ChargePoint : Swift.Hashable, Swift.Equatable {
+public struct ChargePoint : Swift.Hashable, Swift.Equatable, Swift.Codable {
   public init(firmwareVersion: Swift.String, hardwareType: ios_sdk.HardwareType? = nil, model: Swift.String? = nil, serialNumber: Swift.String, vendor: Swift.String)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ios_sdk.ChargePoint, b: ios_sdk.ChargePoint) -> Swift.Bool
+  public func encode(to encoder: Swift.Encoder) throws
   public var hashValue: Swift.Int {
     get
   }
+  public init(from decoder: Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers final public class ChargerSDK {
   final public func observeChargers(receiveCompletion: @escaping ((Combine.Subscribers.Completion<ios_sdk.SDKError>) -> Swift.Void), receiveValue: @escaping (([ios_sdk.Charger]) -> Swift.Void)) -> Combine.AnyCancellable?
