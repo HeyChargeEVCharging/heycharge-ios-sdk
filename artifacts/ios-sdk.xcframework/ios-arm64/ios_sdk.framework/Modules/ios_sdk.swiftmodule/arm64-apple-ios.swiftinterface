@@ -40,6 +40,18 @@ public struct Session : Swift.Identifiable, Swift.Hashable, Swift.Equatable, Swi
   }
   public init(from decoder: Swift.Decoder) throws
 }
+public struct Property : Swift.Identifiable, Swift.Hashable, Swift.Equatable, Swift.Codable {
+  public let id: Swift.String
+  public let name: Swift.String
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ios_sdk.Property, b: ios_sdk.Property) -> Swift.Bool
+  public typealias ID = Swift.String
+  public func encode(to encoder: Swift.Encoder) throws
+  public var hashValue: Swift.Int {
+    get
+  }
+  public init(from decoder: Swift.Decoder) throws
+}
 public enum CommercialModel : Swift.String, Swift.Codable {
   case informational
   case hcMeter
@@ -105,6 +117,7 @@ public struct Charger : Swift.Identifiable, Swift.Hashable, Swift.Equatable, Swi
   public init(from decoder: Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers final public class UserSDK {
+  final public func getUser(userId: Swift.String) throws -> ios_sdk.User?
   @objc deinit
 }
 public struct ChargerConnector : Swift.Identifiable, Swift.Hashable, Swift.Equatable, Swift.Codable {
@@ -117,6 +130,18 @@ public struct ChargerConnector : Swift.Identifiable, Swift.Hashable, Swift.Equat
     get
   }
   public init(from decoder: Swift.Decoder) throws
+}
+public struct User : Swift.Identifiable, Swift.Hashable, Swift.Equatable {
+  public let id: Swift.String
+  public let properties: [ios_sdk.Property]
+  public let adminProperties: [Swift.String]?
+  public let isBuildingAdmin: Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: ios_sdk.User, b: ios_sdk.User) -> Swift.Bool
+  public typealias ID = Swift.String
+  public var hashValue: Swift.Int {
+    get
+  }
 }
 @_hasMissingDesignatedInitializers final public class HeyChargeSDK {
   public static func initialize(sdkKey: Swift.String)
