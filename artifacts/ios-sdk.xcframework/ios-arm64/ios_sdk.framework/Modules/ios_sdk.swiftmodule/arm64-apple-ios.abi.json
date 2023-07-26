@@ -952,6 +952,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ios_sdk",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4454,6 +4464,33 @@
         "children": [
           {
             "kind": "Function",
+            "name": "initializeChargers",
+            "printedName": "initializeChargers(propertyId:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7ios_sdk10ChargerSDKC18initializeChargers10propertyIdySS_tF",
+            "mangledName": "$s7ios_sdk10ChargerSDKC18initializeChargers10propertyIdySS_tF",
+            "moduleName": "ios_sdk",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "observeChargers",
             "printedName": "observeChargers(receiveCompletion:receiveValue:)",
             "children": [
@@ -7675,14 +7712,14 @@
     {
       "filePath": "\/Users\/muhammad\/Desktop\/dev\/heycharge\/ios-sdk\/ios-sdk\/Data\/Http\/HttpClient.swift",
       "kind": "Dictionary",
-      "offset": 697,
+      "offset": 698,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/muhammad\/Desktop\/dev\/heycharge\/ios-sdk\/ios-sdk\/Data\/Http\/HttpClient.swift",
       "kind": "Dictionary",
-      "offset": 955,
+      "offset": 956,
       "length": 3,
       "value": "[]"
     },
@@ -13730,7 +13767,7 @@
     {
       "filePath": "\/Users\/muhammad\/Desktop\/dev\/heycharge\/ios-sdk\/ios-sdk\/Domain\/UserDB.swift",
       "kind": "StringLiteral",
-      "offset": 784,
+      "offset": 934,
       "length": 7,
       "value": "\"users\""
     },
