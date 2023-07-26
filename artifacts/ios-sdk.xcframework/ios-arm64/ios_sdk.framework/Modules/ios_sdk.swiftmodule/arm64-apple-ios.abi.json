@@ -3667,8 +3667,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7ios_sdk7UserSDKC010getCurrentC0AA0C0VSgyKF",
-            "mangledName": "$s7ios_sdk7UserSDKC010getCurrentC0AA0C0VSgyKF",
+            "usr": "s:7ios_sdk7UserSDKC010getCurrentC0AA0C0VSgyYaKF",
+            "mangledName": "$s7ios_sdk7UserSDKC010getCurrentC0AA0C0VSgyYaKF",
             "moduleName": "ios_sdk",
             "declAttributes": [
               "Final",

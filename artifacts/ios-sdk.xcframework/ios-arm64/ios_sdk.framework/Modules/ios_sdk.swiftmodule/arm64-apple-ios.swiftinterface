@@ -117,7 +117,9 @@ public struct Charger : Swift.Identifiable, Swift.Hashable, Swift.Equatable, Swi
   public init(from decoder: Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers final public class UserSDK {
-  final public func getCurrentUser() throws -> ios_sdk.User?
+  #if compiler(>=5.3) && $AsyncAwait
+  final public func getCurrentUser() async throws -> ios_sdk.User?
+  #endif
   @objc deinit
 }
 public struct ChargerConnector : Swift.Identifiable, Swift.Hashable, Swift.Equatable, Swift.Codable {
