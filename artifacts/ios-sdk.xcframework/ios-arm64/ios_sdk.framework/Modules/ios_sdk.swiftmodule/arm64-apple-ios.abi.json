@@ -3648,8 +3648,8 @@
         "children": [
           {
             "kind": "Function",
-            "name": "getUser",
-            "printedName": "getUser(userId:)",
+            "name": "getCurrentUser",
+            "printedName": "getCurrentUser()",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3664,17 +3664,11 @@
                   }
                 ],
                 "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:7ios_sdk7UserSDKC03getC06userIdAA0C0VSgSS_tKF",
-            "mangledName": "$s7ios_sdk7UserSDKC03getC06userIdAA0C0VSgSS_tKF",
+            "usr": "s:7ios_sdk7UserSDKC010getCurrentC0AA0C0VSgyKF",
+            "mangledName": "$s7ios_sdk7UserSDKC010getCurrentC0AA0C0VSgyKF",
             "moduleName": "ios_sdk",
             "declAttributes": [
               "Final",
