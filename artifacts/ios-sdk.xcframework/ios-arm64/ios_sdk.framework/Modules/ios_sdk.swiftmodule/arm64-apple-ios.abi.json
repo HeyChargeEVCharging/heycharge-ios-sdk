@@ -4119,18 +4119,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "[Swift.String]?",
+                "printedName": "[ios_sdk.Property]?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Swift.String]",
+                    "printedName": "[ios_sdk.Property]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
+                        "name": "Property",
+                        "printedName": "ios_sdk.Property",
+                        "usr": "s:7ios_sdk8PropertyV"
                       }
                     ],
                     "usr": "s:Sa"
@@ -4140,8 +4140,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:7ios_sdk4UserV15adminPropertiesSaySSGSgvp",
-            "mangledName": "$s7ios_sdk4UserV15adminPropertiesSaySSGSgvp",
+            "usr": "s:7ios_sdk4UserV15adminPropertiesSayAA8PropertyVGSgvp",
+            "mangledName": "$s7ios_sdk4UserV15adminPropertiesSayAA8PropertyVGSgvp",
             "moduleName": "ios_sdk",
             "declAttributes": [
               "HasStorage",
@@ -4158,18 +4158,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "[Swift.String]?",
+                    "printedName": "[ios_sdk.Property]?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Array",
-                        "printedName": "[Swift.String]",
+                        "printedName": "[ios_sdk.Property]",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
+                            "name": "Property",
+                            "printedName": "ios_sdk.Property",
+                            "usr": "s:7ios_sdk8PropertyV"
                           }
                         ],
                         "usr": "s:Sa"
@@ -4179,8 +4179,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7ios_sdk4UserV15adminPropertiesSaySSGSgvg",
-                "mangledName": "$s7ios_sdk4UserV15adminPropertiesSaySSGSgvg",
+                "usr": "s:7ios_sdk4UserV15adminPropertiesSayAA8PropertyVGSgvg",
+                "mangledName": "$s7ios_sdk4UserV15adminPropertiesSayAA8PropertyVGSgvg",
                 "moduleName": "ios_sdk",
                 "implicit": true,
                 "accessorKind": "get"
@@ -14473,7 +14473,7 @@
     {
       "filePath": "\/Users\/muhammad\/Desktop\/dev\/heycharge\/ios-sdk\/ios-sdk\/Domain\/UserDB.swift",
       "kind": "StringLiteral",
-      "offset": 934,
+      "offset": 936,
       "length": 7,
       "value": "\"users\""
     },

@@ -136,7 +136,7 @@ public struct ChargerConnector : Swift.Identifiable, Swift.Hashable, Swift.Equat
 public struct User : Swift.Identifiable, Swift.Hashable, Swift.Equatable {
   public let id: Swift.String
   public let properties: [ios_sdk.Property]
-  public let adminProperties: [Swift.String]?
+  public let adminProperties: [ios_sdk.Property]?
   public let isBuildingAdmin: Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ios_sdk.User, b: ios_sdk.User) -> Swift.Bool
