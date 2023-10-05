@@ -30,6 +30,7 @@ public struct Session : Swift.Identifiable, Swift.Hashable, Swift.Equatable, Swi
   public let chargeAmount: Swift.Double
   public let chargerName: Swift.String
   public let endDate: Swift.Int64
+  public let startDate: Swift.Int64
   public init(id: Swift.String, userId: Swift.String, b2bId: Swift.String?, chargeAmount: Swift.Double, chargerId: Swift.String, chargerName: Swift.String, commercialModel: ios_sdk.CommercialModel?, createdAt: Swift.Int64, deliveryDuration: Swift.Int64, endDate: Swift.Int64, startDate: Swift.Int64, isBilled: Swift.Bool, paymentAmount: Swift.Double, pricing: ios_sdk.ChargerPricing)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ios_sdk.Session, b: ios_sdk.Session) -> Swift.Bool
@@ -141,7 +142,7 @@ public struct ChargerConnector : Swift.Identifiable, Swift.Hashable, Swift.Equat
   public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers final public class HeyChargeSDK {
-  public static func initialize(sdkKey: Swift.String, region: ios_sdk.HeyChargeRegion)
+  public static func initialize(sdkKey: Swift.String, region: ios_sdk.HeyChargeRegion) throws
   public static func setUserId(userId: Swift.String)
   public static func chargers() -> ios_sdk.ChargerSDK
   public static func users() -> ios_sdk.UserSDK

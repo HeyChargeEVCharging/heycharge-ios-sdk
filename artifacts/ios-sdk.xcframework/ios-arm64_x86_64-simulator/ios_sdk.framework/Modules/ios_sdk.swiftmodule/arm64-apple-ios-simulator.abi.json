@@ -564,6 +564,50 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "startDate",
+            "printedName": "startDate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7ios_sdk7SessionV9startDates5Int64Vvp",
+            "mangledName": "$s7ios_sdk7SessionV9startDates5Int64Vvp",
+            "moduleName": "ios_sdk",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7ios_sdk7SessionV9startDates5Int64Vvg",
+                "mangledName": "$s7ios_sdk7SessionV9startDates5Int64Vvg",
+                "moduleName": "ios_sdk",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(id:userId:b2bId:chargeAmount:chargerId:chargerName:commercialModel:createdAt:deliveryDuration:endDate:startDate:isBilled:paymentAmount:pricing:)",
@@ -4289,14 +4333,15 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:7ios_sdk12HeyChargeSDKC10initialize0B3Key6regionySS_AA0cD6RegionOtFZ",
-            "mangledName": "$s7ios_sdk12HeyChargeSDKC10initialize0B3Key6regionySS_AA0cD6RegionOtFZ",
+            "usr": "s:7ios_sdk12HeyChargeSDKC10initialize0B3Key6regionySS_AA0cD6RegionOtKFZ",
+            "mangledName": "$s7ios_sdk12HeyChargeSDKC10initialize0B3Key6regionySS_AA0cD6RegionOtKFZ",
             "moduleName": "ios_sdk",
             "static": true,
             "declAttributes": [
               "Final",
               "AccessControl"
             ],
+            "throwing": true,
             "funcSelfKind": "NonMutating"
           },
           {
@@ -17968,134 +18013,134 @@
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 4081,
-      "length": 31,
-      "value": "\"firmware could not be fetched\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7497,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 11552,
-      "length": 24,
-      "value": "\"readyForChargerActions\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 11590,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 12021,
-      "length": 24,
-      "value": "\"readyForChargerActions\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
-      "kind": "BooleanLiteral",
-      "offset": 12059,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
-      "kind": "StringLiteral",
-      "offset": 12691,
-      "length": 42,
-      "value": "\"background messages could not be fetched\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
       "kind": "Array",
-      "offset": 15983,
-      "length": 2,
-      "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
-      "kind": "Array",
-      "offset": 16482,
+      "offset": 3880,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
       "kind": "Dictionary",
-      "offset": 16558,
+      "offset": 3983,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
       "kind": "StringLiteral",
-      "offset": 16578,
+      "offset": 4011,
       "length": 20,
       "value": "\"bluetoothChargerId\""
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
       "kind": "StringLiteral",
-      "offset": 16645,
+      "offset": 4086,
       "length": 17,
       "value": "\"otaUpdateUserId\""
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17449,
-      "length": 11,
-      "value": "\"connected\""
+      "offset": 4529,
+      "length": 31,
+      "value": "\"firmware could not be fetched\""
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 17474,
+      "offset": 7945,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17515,
+      "offset": 12000,
+      "length": 24,
+      "value": "\"readyForChargerActions\""
+    },
+    {
+      "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12038,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 12469,
+      "length": 24,
+      "value": "\"readyForChargerActions\""
+    },
+    {
+      "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12507,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 13139,
+      "length": 42,
+      "value": "\"background messages could not be fetched\""
+    },
+    {
+      "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
+      "kind": "Array",
+      "offset": 16431,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 17524,
+      "length": 11,
+      "value": "\"connected\""
+    },
+    {
+      "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17549,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
+      "kind": "StringLiteral",
+      "offset": 17590,
       "length": 17,
       "value": "\"firmwareVersion\""
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17548,
+      "offset": 17623,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
       "kind": "StringLiteral",
-      "offset": 17600,
+      "offset": 17675,
       "length": 7,
       "value": "\"state\""
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
       "kind": "IntegerLiteral",
-      "offset": 17620,
+      "offset": 17695,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XCodeProjects\/ios-sdk\/ios-sdk\/Core\/ChargerSDK.swift",
       "kind": "StringLiteral",
-      "offset": 18933,
+      "offset": 19008,
       "length": 3,
       "value": "\"0\""
     },
