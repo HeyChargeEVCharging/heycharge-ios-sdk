@@ -16,9 +16,9 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/groue/GRDB.swift.git", from: "6.6.1"),
-        .package(url: "https://github.com/apple/swift-protobuf.git", from: "1.6.0"),
-        .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.6.1"))
+        .package(url: "https://github.com/groue/GRDB.swift.git", exact: "6.29.3"),
+        .package(url: "https://github.com/apple/swift-protobuf.git", exact: "1.25.0"),
+        .package(url: "https://github.com/Alamofire/Alamofire.git", exact: "5.10.1")
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.

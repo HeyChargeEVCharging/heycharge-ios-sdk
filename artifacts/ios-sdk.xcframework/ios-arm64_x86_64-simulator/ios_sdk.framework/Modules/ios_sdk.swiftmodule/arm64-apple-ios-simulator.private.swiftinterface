@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
-// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ios_sdk
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name ios_sdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import BackgroundTasks
 import Combine
 import CommonCrypto
@@ -13,6 +13,7 @@ import Swift
 import UIKit
 import _Concurrency
 import _StringProcessing
+import _SwiftConcurrencyShims
 @_exported import ios_sdk
 public enum HardwareType : Swift.Int, Swift.Codable {
   case unknown
@@ -115,9 +116,9 @@ public struct Charger : Swift.Identifiable, Swift.Hashable, Swift.Equatable, Swi
   public let id: Swift.String
   public let name: Swift.String
   public let address: Swift.String
-  public let pricing: ios_sdk.ChargerPricing
+  public let pricing: ios_sdk.ChargerPricing?
   public let bluetoothStatus: ios_sdk.ChargerState?
-  public init(id: Swift.String, name: Swift.String, b2bId: Swift.String, address: Swift.String, connectors: [ios_sdk.ChargerConnector], chargePoint: ios_sdk.ChargePoint, type: ios_sdk.ChargerType, pricing: ios_sdk.ChargerPricing, authorizedUsers: [Swift.String]? = nil, propertyId: Swift.String? = nil, onboarded: Swift.Bool? = nil, bluetoothChargerId: Swift.String? = nil, publicKey: Swift.String? = nil, userIdHash: Foundation.Data? = nil, otaUpdateUserId: Swift.String? = nil, bluetoothStatus: ios_sdk.ChargerState? = nil, commercialModel: ios_sdk.CommercialModel? = nil, hardwareVersion: Swift.String? = nil, pendingMessageState: ios_sdk.PendingMessagesState? = nil, readyForChargerActions: Swift.Bool? = nil, readyForOta: Swift.Bool? = nil, shouldSyncTime: Swift.Bool = true)
+  public init(id: Swift.String, name: Swift.String, b2bId: Swift.String, address: Swift.String, connectors: [ios_sdk.ChargerConnector], chargePoint: ios_sdk.ChargePoint, type: ios_sdk.ChargerType, pricing: ios_sdk.ChargerPricing?, authorizedUsers: [Swift.String]? = nil, propertyId: Swift.String? = nil, onboarded: Swift.Bool? = nil, bluetoothChargerId: Swift.String? = nil, publicKey: Swift.String? = nil, userIdHash: Foundation.Data? = nil, otaUpdateUserId: Swift.String? = nil, bluetoothStatus: ios_sdk.ChargerState? = nil, commercialModel: ios_sdk.CommercialModel? = nil, hardwareVersion: Swift.String? = nil, pendingMessageState: ios_sdk.PendingMessagesState? = nil, readyForChargerActions: Swift.Bool? = nil, readyForOta: Swift.Bool? = nil, shouldSyncTime: Swift.Bool = true)
   public func hash(into hasher: inout Swift.Hasher)
   public static func == (a: ios_sdk.Charger, b: ios_sdk.Charger) -> Swift.Bool
   public typealias ID = Swift.String
@@ -163,9 +164,7 @@ public struct ChargePoint : Swift.Hashable, Swift.Equatable, Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers final public class ChargerSDK {
-  #if compiler(>=5.3) && $AsyncAwait
   final public func getUserProperties() async -> [ios_sdk.Property]?
-  #endif
   final public func initializeChargers(propertyId: Swift.String)
   final public func observeChargers(receiveCompletion: @escaping ((Combine.Subscribers.Completion<ios_sdk.SDKError>) -> Swift.Void), receiveValue: @escaping (([ios_sdk.Charger]) -> Swift.Void)) -> Combine.AnyCancellable?
   final public func isChargerAvailable(charger: ios_sdk.Charger) -> Swift.Bool
