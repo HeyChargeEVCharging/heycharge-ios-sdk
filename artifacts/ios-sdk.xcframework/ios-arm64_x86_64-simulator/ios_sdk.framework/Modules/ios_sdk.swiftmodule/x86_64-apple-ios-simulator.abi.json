@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "ios_sdk",
+    "printedName": "ios_sdk",
     "children": [
       {
         "kind": "Import",
@@ -246,6 +246,20 @@
         ],
         "enumRawTypeName": "Int",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -887,6 +901,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifiable",
             "printedName": "Identifiable",
             "children": [
@@ -1265,6 +1293,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifiable",
             "printedName": "Identifiable",
             "children": [
@@ -1505,6 +1547,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1708,7 +1764,23 @@
           "Final",
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1776,7 +1848,23 @@
           "Final",
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -2120,6 +2208,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2443,6 +2545,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -2752,6 +2868,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3036,6 +3166,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -3294,14 +3438,22 @@
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "ChargerPricing",
-                "printedName": "ios_sdk.ChargerPricing",
-                "usr": "s:7ios_sdk14ChargerPricingV"
+                "name": "Optional",
+                "printedName": "ios_sdk.ChargerPricing?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChargerPricing",
+                    "printedName": "ios_sdk.ChargerPricing",
+                    "usr": "s:7ios_sdk14ChargerPricingV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Var",
-            "usr": "s:7ios_sdk7ChargerV7pricingAA0C7PricingVvp",
-            "mangledName": "$s7ios_sdk7ChargerV7pricingAA0C7PricingVvp",
+            "usr": "s:7ios_sdk7ChargerV7pricingAA0C7PricingVSgvp",
+            "mangledName": "$s7ios_sdk7ChargerV7pricingAA0C7PricingVSgvp",
             "moduleName": "ios_sdk",
             "declAttributes": [
               "HasStorage",
@@ -3317,14 +3469,22 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ChargerPricing",
-                    "printedName": "ios_sdk.ChargerPricing",
-                    "usr": "s:7ios_sdk14ChargerPricingV"
+                    "name": "Optional",
+                    "printedName": "ios_sdk.ChargerPricing?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ChargerPricing",
+                        "printedName": "ios_sdk.ChargerPricing",
+                        "usr": "s:7ios_sdk14ChargerPricingV"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:7ios_sdk7ChargerV7pricingAA0C7PricingVvg",
-                "mangledName": "$s7ios_sdk7ChargerV7pricingAA0C7PricingVvg",
+                "usr": "s:7ios_sdk7ChargerV7pricingAA0C7PricingVSgvg",
+                "mangledName": "$s7ios_sdk7ChargerV7pricingAA0C7PricingVSgvg",
                 "moduleName": "ios_sdk",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3454,9 +3614,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "ChargerPricing",
-                "printedName": "ios_sdk.ChargerPricing",
-                "usr": "s:7ios_sdk14ChargerPricingV"
+                "name": "Optional",
+                "printedName": "ios_sdk.ChargerPricing?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ChargerPricing",
+                    "printedName": "ios_sdk.ChargerPricing",
+                    "usr": "s:7ios_sdk14ChargerPricingV"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -3670,8 +3838,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:7ios_sdk7ChargerV2id4name5b2bId7address10connectors11chargePoint4type7pricing15authorizedUsers08propertyG09onboarded09bluetoothcG09publicKey04userG4Hash013otaUpdateUserG00R6Status15commercialModel15hardwareVersion19pendingMessageState08readyForC7Actions11readyForOta14shouldSyncTimeACSS_S3SSayAA0C9ConnectorVGAA06ChargeK0VAA0C4TypeOAA0C7PricingVSaySSGSgSSSgSbSgA9_A9_10Foundation4DataVSgA9_AA0C5StateOSgAA15CommercialModelOSgA9_AA20PendingMessagesStateOSgA10_A10_Sbtcfc",
-            "mangledName": "$s7ios_sdk7ChargerV2id4name5b2bId7address10connectors11chargePoint4type7pricing15authorizedUsers08propertyG09onboarded09bluetoothcG09publicKey04userG4Hash013otaUpdateUserG00R6Status15commercialModel15hardwareVersion19pendingMessageState08readyForC7Actions11readyForOta14shouldSyncTimeACSS_S3SSayAA0C9ConnectorVGAA06ChargeK0VAA0C4TypeOAA0C7PricingVSaySSGSgSSSgSbSgA9_A9_10Foundation4DataVSgA9_AA0C5StateOSgAA15CommercialModelOSgA9_AA20PendingMessagesStateOSgA10_A10_Sbtcfc",
+            "usr": "s:7ios_sdk7ChargerV2id4name5b2bId7address10connectors11chargePoint4type7pricing15authorizedUsers08propertyG09onboarded09bluetoothcG09publicKey04userG4Hash013otaUpdateUserG00R6Status15commercialModel15hardwareVersion19pendingMessageState08readyForC7Actions11readyForOta14shouldSyncTimeACSS_S3SSayAA0C9ConnectorVGAA06ChargeK0VAA0C4TypeOAA0C7PricingVSgSaySSGSgSSSgSbSgA10_A10_10Foundation4DataVSgA10_AA0C5StateOSgAA15CommercialModelOSgA10_AA20PendingMessagesStateOSgA11_A11_Sbtcfc",
+            "mangledName": "$s7ios_sdk7ChargerV2id4name5b2bId7address10connectors11chargePoint4type7pricing15authorizedUsers08propertyG09onboarded09bluetoothcG09publicKey04userG4Hash013otaUpdateUserG00R6Status15commercialModel15hardwareVersion19pendingMessageState08readyForC7Actions11readyForOta14shouldSyncTimeACSS_S3SSayAA0C9ConnectorVGAA06ChargeK0VAA0C4TypeOAA0C7PricingVSgSaySSGSgSSSgSbSgA10_A10_10Foundation4DataVSgA10_AA0C5StateOSgAA15CommercialModelOSgA10_AA20PendingMessagesStateOSgA11_A11_Sbtcfc",
             "moduleName": "ios_sdk",
             "declAttributes": [
               "AccessControl",
@@ -3837,6 +4005,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifiable",
             "printedName": "Identifiable",
             "children": [
@@ -3957,7 +4139,23 @@
           "Final",
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -4174,6 +4372,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Identifiable",
@@ -4516,7 +4728,23 @@
           "Final",
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -4883,6 +5111,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Hashable",
@@ -5708,7 +5950,23 @@
           "Final",
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -6385,6 +6643,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -7237,6 +7509,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7346,6 +7632,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -7415,81 +7715,11 @@
       "value": "2"
     },
     {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/HardwareType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 78,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/HardwareType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 104,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/HardwareType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 121,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/HardwareType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 144,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/HardwareType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 78,
-      "length": 1,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/HardwareType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 104,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/HardwareType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 121,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/HardwareType.swift",
-      "kind": "IntegerLiteral",
-      "offset": 144,
-      "length": 1,
-      "value": "2"
-    },
-    {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/RequestMessageDB.swift",
       "kind": "StringLiteral",
       "offset": 815,
       "length": 17,
       "value": "\"requestMessages\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Helpers\/KeychainHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 5281,
-      "length": 7,
-      "value": "\"token\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Helpers\/KeychainHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 5311,
-      "length": 12,
-      "value": "\"privateKey\""
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Helpers\/KeychainHelper.swift",
@@ -8397,44 +8627,30 @@
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Data\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 77,
+      "offset": 238,
       "length": 50,
-      "value": "\"https:\/\/api-service-xrthopnhga-ew.a.run.app\/sdk\/\""
+      "value": "\"https:\/\/api-service-m2bqzzblrq-ew.a.run.app\/sdk\/\""
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Data\/Http\/HttpClient.swift",
       "kind": "StringLiteral",
-      "offset": 153,
+      "offset": 315,
       "length": 53,
-      "value": "\"https:\/\/api-service-us-xrthopnhga-uc.a.run.app\/sdk\/\""
+      "value": "\"https:\/\/api-service-us-m2bqzzblrq-uc.a.run.app\/sdk\/\""
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Data\/Http\/HttpClient.swift",
       "kind": "Dictionary",
-      "offset": 922,
+      "offset": 924,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Data\/Http\/HttpClient.swift",
       "kind": "Dictionary",
-      "offset": 1180,
+      "offset": 1182,
       "length": 3,
       "value": "[]"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/CommercialModel.swift",
-      "kind": "StringLiteral",
-      "offset": 186,
-      "length": 15,
-      "value": "\"informational\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/CommercialModel.swift",
-      "kind": "StringLiteral",
-      "offset": 221,
-      "length": 9,
-      "value": "\"hcMeter\""
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/CommercialModel.swift",
@@ -8453,23 +8669,44 @@
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Sync\/PeriodicPullHandler.swift",
       "kind": "BooleanLiteral",
-      "offset": 196,
+      "offset": 189,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Sync\/PeriodicPullHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 286,
-      "length": 3,
-      "value": "5.0"
+      "kind": "IntegerLiteral",
+      "offset": 234,
+      "length": 1,
+      "value": "5"
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Sync\/PeriodicPullHandler.swift",
-      "kind": "FloatLiteral",
-      "offset": 336,
-      "length": 4,
-      "value": "60.0"
+      "kind": "IntegerLiteral",
+      "offset": 238,
+      "length": 13,
+      "value": "1000000000"
+    },
+    {
+      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Sync\/PeriodicPullHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 311,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Sync\/PeriodicPullHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 316,
+      "length": 13,
+      "value": "1000000000"
+    },
+    {
+      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Sync\/PeriodicPullHandler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 425,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Core\/SessionSDK.swift",
@@ -9879,34 +10116,6 @@
       "value": "1"
     },
     {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/HeyChargeRegion.swift",
-      "kind": "IntegerLiteral",
-      "offset": 173,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/HeyChargeRegion.swift",
-      "kind": "IntegerLiteral",
-      "offset": 189,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/HeyChargeRegion.swift",
-      "kind": "IntegerLiteral",
-      "offset": 173,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/HeyChargeRegion.swift",
-      "kind": "IntegerLiteral",
-      "offset": 189,
-      "length": 1,
-      "value": "1"
-    },
-    {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/PendingMessageState.swift",
       "kind": "IntegerLiteral",
       "offset": 91,
@@ -9919,188 +10128,6 @@
       "offset": 112,
       "length": 1,
       "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/PendingMessageState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 91,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/PendingMessageState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 112,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/PendingMessageState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 91,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/PendingMessageState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 112,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 149,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 175,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 201,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 226,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 258,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 290,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 312,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 341,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 358,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 382,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 407,
-      "length": 2,
-      "value": "11"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 149,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 175,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 201,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 226,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 258,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 290,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 312,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 341,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 358,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 382,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
-      "kind": "IntegerLiteral",
-      "offset": 407,
-      "length": 2,
-      "value": "11"
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OtaAction.swift",
@@ -10185,20 +10212,6 @@
       "offset": 770,
       "length": 20,
       "value": "\"backgroundMessages\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/ChargerType.swift",
-      "kind": "StringLiteral",
-      "offset": 169,
-      "length": 6,
-      "value": "\"ocpp\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/ChargerType.swift",
-      "kind": "StringLiteral",
-      "offset": 200,
-      "length": 14,
-      "value": "\"secureCharge\""
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/ChargerType.swift",
@@ -10840,7 +10853,7 @@
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/Charger.swift",
       "kind": "BooleanLiteral",
-      "offset": 1564,
+      "offset": 1566,
       "length": 4,
       "value": "true"
     },
@@ -10854,7 +10867,7 @@
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/ChargerDB.swift",
       "kind": "StringLiteral",
-      "offset": 1957,
+      "offset": 1959,
       "length": 10,
       "value": "\"chargers\""
     },
@@ -11053,195 +11066,6 @@
       "offset": 309,
       "length": 8,
       "value": "\"reboot\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/RequestMessageType.swift",
-      "kind": "StringLiteral",
-      "offset": 176,
-      "length": 7,
-      "value": "\"start\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/RequestMessageType.swift",
-      "kind": "StringLiteral",
-      "offset": 200,
-      "length": 6,
-      "value": "\"stop\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/RequestMessageType.swift",
-      "kind": "StringLiteral",
-      "offset": 229,
-      "length": 12,
-      "value": "\"onboarding\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/RequestMessageType.swift",
-      "kind": "StringLiteral",
-      "offset": 271,
-      "length": 19,
-      "value": "\"exchangePhoneKeys\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/RequestMessageType.swift",
-      "kind": "StringLiteral",
-      "offset": 309,
-      "length": 8,
-      "value": "\"reboot\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 68,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 104,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 140,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 161,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 187,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 211,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 232,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 255,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 277,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 300,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 318,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 68,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 104,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 140,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 161,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 187,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 211,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 232,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 255,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 277,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 300,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 318,
-      "length": 2,
-      "value": "10"
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ScmOtaState.swift",
@@ -12208,62 +12032,6 @@
       "offset": 277,
       "length": 15,
       "value": "\"not-available\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/ConnectorStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 174,
-      "length": 11,
-      "value": "\"available\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/ConnectorStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 211,
-      "length": 19,
-      "value": "\"waiting-to-charge\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/ConnectorStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 246,
-      "length": 8,
-      "value": "\"in-use\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/ConnectorStatus.swift",
-      "kind": "StringLiteral",
-      "offset": 277,
-      "length": 15,
-      "value": "\"not-available\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/FirmwareType.swift",
-      "kind": "StringLiteral",
-      "offset": 162,
-      "length": 4,
-      "value": "\"AP\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/FirmwareType.swift",
-      "kind": "StringLiteral",
-      "offset": 182,
-      "length": 5,
-      "value": "\"SCM\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/FirmwareType.swift",
-      "kind": "StringLiteral",
-      "offset": 202,
-      "length": 4,
-      "value": "\"SP\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/FirmwareType.swift",
-      "kind": "StringLiteral",
-      "offset": 225,
-      "length": 8,
-      "value": "\"LOADER\""
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/FirmwareType.swift",
@@ -13850,62 +13618,6 @@
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OTAProcess.swift",
       "kind": "IntegerLiteral",
-      "offset": 180,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OTAProcess.swift",
-      "kind": "IntegerLiteral",
-      "offset": 200,
-      "length": 4,
-      "value": "0x03"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OTAProcess.swift",
-      "kind": "IntegerLiteral",
-      "offset": 180,
-      "length": 4,
-      "value": "0x00"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OTAProcess.swift",
-      "kind": "IntegerLiteral",
-      "offset": 200,
-      "length": 4,
-      "value": "0x03"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OTAProcess.swift",
-      "kind": "IntegerLiteral",
-      "offset": 480,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OTAProcess.swift",
-      "kind": "IntegerLiteral",
-      "offset": 511,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OTAProcess.swift",
-      "kind": "IntegerLiteral",
-      "offset": 480,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OTAProcess.swift",
-      "kind": "IntegerLiteral",
-      "offset": 511,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/OTAProcess.swift",
-      "kind": "IntegerLiteral",
       "offset": 480,
       "length": 1,
       "value": "0"
@@ -13993,286 +13705,6 @@
       "offset": 266,
       "length": 1,
       "value": "4"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/BluetoothState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 177,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/BluetoothState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 194,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/BluetoothState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 220,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/BluetoothState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 245,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/BluetoothState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 266,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/BluetoothState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 177,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/BluetoothState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 194,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/BluetoothState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 220,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/BluetoothState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 245,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/BluetoothState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 266,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 174,
-      "length": 15,
-      "value": "\"start-success\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 213,
-      "length": 14,
-      "value": "\"stop-success\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 251,
-      "length": 14,
-      "value": "\"start-failed\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 288,
-      "length": 13,
-      "value": "\"stop-failed\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 332,
-      "length": 41,
-      "value": "\"onboarding-backend-key-exchange-success\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 403,
-      "length": 40,
-      "value": "\"onboarding-backend-key-exchange-failed\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 475,
-      "length": 5,
-      "value": "\"400\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 511,
-      "length": 5,
-      "value": "\"401\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 552,
-      "length": 5,
-      "value": "\"301\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 593,
-      "length": 5,
-      "value": "\"302\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 637,
-      "length": 5,
-      "value": "\"303\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 677,
-      "length": 5,
-      "value": "\"304\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 719,
-      "length": 5,
-      "value": "\"305\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 755,
-      "length": 5,
-      "value": "\"306\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 804,
-      "length": 5,
-      "value": "\"307\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 851,
-      "length": 5,
-      "value": "\"308\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 894,
-      "length": 5,
-      "value": "\"309\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 925,
-      "length": 5,
-      "value": "\"310\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 974,
-      "length": 5,
-      "value": "\"311\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1022,
-      "length": 5,
-      "value": "\"312\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1071,
-      "length": 5,
-      "value": "\"313\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1106,
-      "length": 5,
-      "value": "\"314\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1160,
-      "length": 5,
-      "value": "\"315\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1202,
-      "length": 5,
-      "value": "\"317\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1244,
-      "length": 5,
-      "value": "\"318\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1275,
-      "length": 5,
-      "value": "\"319\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1305,
-      "length": 5,
-      "value": "\"320\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1342,
-      "length": 5,
-      "value": "\"321\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1370,
-      "length": 22,
-      "value": "\"Internal fatal error\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
-      "kind": "StringLiteral",
-      "offset": 1412,
-      "length": 4,
-      "value": "\"-1\""
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/SdkChargerResponse.swift",
@@ -14494,177 +13926,9 @@
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Domain\/UserDB.swift",
       "kind": "StringLiteral",
-      "offset": 1083,
+      "offset": 1149,
       "length": 7,
       "value": "\"users\""
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 80,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 106,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 130,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 148,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 179,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 201,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 230,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 254,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 272,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 307,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 328,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 346,
-      "length": 3,
-      "value": "100"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 80,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 106,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 130,
-      "length": 1,
-      "value": "2"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 148,
-      "length": 1,
-      "value": "3"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 179,
-      "length": 1,
-      "value": "4"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 201,
-      "length": 1,
-      "value": "5"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 230,
-      "length": 1,
-      "value": "6"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 254,
-      "length": 1,
-      "value": "7"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 272,
-      "length": 1,
-      "value": "8"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 307,
-      "length": 1,
-      "value": "9"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 328,
-      "length": 2,
-      "value": "10"
-    },
-    {
-      "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
-      "kind": "IntegerLiteral",
-      "offset": 346,
-      "length": 3,
-      "value": "100"
     },
     {
       "filePath": "\/Users\/andrewvitrichenko\/XcodeProjects\/ios-sdk\/ios-sdk\/Services\/Bluetooth\/models\/ChargerState.swift",
